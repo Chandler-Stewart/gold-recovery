@@ -40,7 +40,7 @@ Then the rougher concentrate undergoes two stages of purification. After purific
 - feed rate
 
 ## Functions
-**Recovery**:
+**Recovery**:  
 <img src="https://latex.codecogs.com/svg.image?\mathit{Recovery}&space;=&space;\frac{C&space;\times&space;(F&space;-&space;T)}{F&space;\times&space;(C&space;-&space;T)}&space;\times&space;100%" title="\mathit{Recovery} = \frac{C \times (F - T)}{F \times (C - T)} \times 100%" />
 
 where:  
@@ -52,18 +52,16 @@ T — share of gold in the rougher tails right after flotation (for finding the 
 
 The evaluation metric will be symmetric Mean Absolute Percentage Error, or sMAPE
 
-$\begin{equation}
-sMAPE = \frac{1}{N}\sum_{i=1}^{N}\frac{|y_i-\hat{y_i}|}{(|y_i| + |\hat{y_i}|)/2}
-\end{equation}$
+<img src="https://latex.codecogs.com/svg.image?\mathit{sMAPE}&space;=&space;\frac{1}{N}\sum_{i=1}^{N}\frac{\left|y_{i}-\hat{y}_{i}\right|}{(\left|y_{i}\right|&plus;\left|\hat{y}_{i}\right|)/2}" title="\mathit{sMAPE} = \frac{1}{N}\sum_{i=1}^{N}\frac{\left|y_{i}-\hat{y}_{i}\right|}{(\left|y_{i}\right|+\left|\hat{y}_{i}\right|)/2}" />
 
 where:  
-$N$ — number of observations  
-$`y_i`$ — Value of target  
-$\hat{y_i}$ — Value of prediction  
+<img src="https://latex.codecogs.com/svg.image?\mathit{N}" title="\mathit{N}" /> — number of observations  
+<img src="https://latex.codecogs.com/svg.image?y_{i}" title="y_{i}" /> — Value of target  
+<img src="https://latex.codecogs.com/svg.image?\hat{y}_{i}" title="\hat{y}_{i}" /> — Value of prediction  
 
-$\begin{equation}
-\text{Final sMAPE} = 25\% \times \text{ sMAPE(rougher) } + 75\% \times \text{ sMAPE(final) }
-\end{equation}$  
+Then, the final sMAPE is calculated as
+
+<img src="https://latex.codecogs.com/svg.image?\textup{Final}\;\textup{sMAPE}&space;=&space;25%&space;\times&space;\textup{sMAPE}(\mathit{rougher})&plus;&space;75%&space;\times&space;\textup{sMAPE}(\mathit{final})" title="\textup{Final}\;\textup{sMAPE} = 25% \times \textup{sMAPE}(\mathit{rougher})+ 75% \times \textup{sMAPE}(\mathit{final})" /> 
 
 **The Data** - The data files below is where our input for the project comes from. The files contain different non-identifying information on people associated with their phone and internet contracts. The following characteristics are in the file:
 
