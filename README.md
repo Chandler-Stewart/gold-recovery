@@ -41,9 +41,7 @@ Then the rougher concentrate undergoes two stages of purification. After purific
 
 ## Functions
 **Recovery**:
-$`\begin{equation}
-Recovery = \frac{C\times(F-T)}{F\times(C-T)} \times 100\%
-\end{equation}`$
+<img src="https://latex.codecogs.com/svg.image?\mathit{Recovery}&space;=&space;\frac{C&space;\times&space;(F&space;-&space;T)}{F&space;\times&space;(C&space;-&space;T)}&space;\times&space;100%" title="\mathit{Recovery} = \frac{C \times (F - T)}{F \times (C - T)} \times 100%" />
 
 where:  
 C — share of gold in the concentrate right after flotation (for finding the rougher concentrate recovery)/after purification (for finding the final concentrate recovery)  
